@@ -5,16 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha256-wLz3iY/cO4e6vKZ4zRmo4+9XDpMcgKOvv/zEU3OMlRo=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   
     <title>Slack</title>
 </head>
 <body>
     <head>
-        <h1></h1>
-         <nav>Producto</nav>
-         <nav>Enterprise</nav>
-         <nav></nav>         
-         <nav></nav>
-
+        <nav class="navbar px-5" style="background-color: #4a154b;">
+            <div class="container-fluid">
+            <div class="navbar">
+              <a class="navbar-brand text-white fw-bolder" href="#"><img class="b-logoslack d-inline-block align-text-top me-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png">Slack</a>
+              
+              <a class="nav-link dropdown-toggle mx-3 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Producto</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Funciones</a></li>
+                    <li><a class="dropdown-item" href="#">Canales</a></li>
+                    <li><a class="dropdown-item" href="#">Integraciones</a></li>
+                    <li><a class="dropdown-item" href="#">Seguros</a></li>
+                    <li><a class="dropdown-item" href="#">Slack Connect</a></li>
+                    <li><a class="dropdown-item" href="#">Soluciones</a></li>
+                    <li><a class="dropdown-item" href="#">Casos de clientes</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Descargar Slack</a></li>
+                </ul>
+              <a class="nav-link text-white mx-3" href="#">Entersprise</a>
+              <a class="nav-link text-white mx-3" href="#">Recursos</a>
+              <a class="nav-link text-white mx-3" href="#">Precios</a>
+            </div>
+              <div class="d-flex b-BgViolet"  role="search">
+                <a class="nav-link text-white mx-3 my-2" href="#">Conectarse</a>
+                <button type="button" id="prueba" class="text-reset btn btn-outline fw-bolder mx-3" disabled>HABLAR CON EL EQUIPO DE VENTAS</button>
+                <button class="btn btn-light fw-bolder" id="b-text-violet">PROBAR GRATIS</button>
+              </div>
+            </div>            
+        </nav>
+        <div class="text-center b-BgViolet container-fluid">
+            <div class="row">
+              <div class="col m-5 ps-2"> 
+                <h1 class="text-start fs-1 fw-bolder">Pensando para las personas.</h1>
+                 <h2 class="b-h2 text-start fs-1 fw-bolder">Creado para la productividad.</h2>
+                  <p class="text-start">Conecta con las personas adecuadas, encuentra lo que necesitas y automatiza todo lo demás. Así es como se trabaja en Slack, tu plataforma de productividad.</p>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-light fw-bolder p-3" id="b-text-violet">REGISTRARSE CON CORREO</button>
+                    <button class="btn btn-primary p-3" type="button">REGISTRARSE CON GOOGLE</button>
+                    <p class="fs-5 text-start fw-bolder">Slack puede probarse de forma gratuita durante el tiempo que se quiera</p>
+                  </div>   
+                </div>
+              <div class="col">                
+              </div>
+            </div>
+        </div>   
     </head>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
