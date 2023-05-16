@@ -1,0 +1,62 @@
+.b-BgViolet{
+    background-color: #611f69;
+    color: white
+}
+
+#b-id-BgViolet{
+    background-color: #611f69;
+    color: white
+}
+#prueba {
+    color: white;
+    opacity: 1;
+}
+
+.b-logoslack{
+    width: 2rem;
+    height: 2rem;
+}
+
+.b-h2{
+    color: #ecb22e;
+}
+
+#b-text-violet{
+    color: #611f69;    
+}
+
+.b-Bg-beige{
+    background-color:#f4ede4;
+}
+
+.b-video-radius{
+    
+}
+
+.b-Font-h3{
+    font-size: 3rem;
+}
+
+.b-clase-number{
+    font-size: 4rem;
+    color: #611f69;
+}
+
+.b-h5-size-color{
+    font-size: 1rem;
+    color: gray
+}
+
+.b-border-bg{
+    border-top:20px;
+}
+
+.b-logoslack-footer{    
+    width: 4rem;
+    height: 4rem;
+}
+
+li{
+    list-style-type: none;
+}
+
