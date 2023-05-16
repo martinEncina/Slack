@@ -29,7 +29,8 @@
     background-color:#f4ede4;
 }
 
-.b-video-radius{
+.b-span__color{
+    color: white !important; 
     
 }
 
@@ -47,8 +48,8 @@
     color: gray
 }
 
-.b-border-bg{
-    border-top:20px;
+.b-border-bg{ 
+    border-radius: 0% 0% 30% 30%
 }
 
 .b-logoslack-footer{    
